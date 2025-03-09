@@ -1,98 +1,123 @@
-/* Asosiy Uslublar */
+/* Umumiy stil */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212;
-    color: #ffffff;
+    background-color: #1e1e1e;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* Header */
-.header {
-    background-color: #000000;
-    color: #ffffff;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.header .logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.nav ul {
-    list-style: none;
-    display: flex;
+header h1 {
     margin: 0;
-    padding: 0;
-}
-
-.nav ul li {
-    margin: 0 10px;
-}
-
-.nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 16px;
-    transition: color 0.3s;
-}
-
-.nav ul li a:hover {
-    color: #f39c12;
-}
-
-/* Hero Section */
-.hero {
-    background-color: #333333;
     text-align: center;
-    padding: 50px 20px;
+    font-size: 2.5em;
 }
 
-.hero h1 {
-    font-size: 36px;
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+/* Hero section */
+.hero {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3em;
     margin-bottom: 10px;
 }
 
 .hero p {
-    font-size: 18px;
-}
-
-/* Videos Section */
-.videos {
-    padding: 20px;
-}
-
-.videos h2 {
-    text-align: center;
+    font-size: 1.5em;
     margin-bottom: 20px;
-    font-size: 28px;
-    color: #f39c12;
 }
 
-.video {
-    margin: 20px 0;
+/* Video section */
+.video-section {
+    padding: 50px 0;
+    background-color: #2c2c2c;
+}
+
+.video-section h2 {
     text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
 }
 
-iframe {
-    width: 80%;
-    height: 400px;
-    border: 2px solid #f39c12;
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.video-item {
+    background-color: #444;
+    padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+}
+
+.video-item h3 {
+    font-size: 1.5em;
     margin-bottom: 10px;
 }
 
+.video-item iframe {
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 360px;
+}
+
 /* Footer */
-.footer {
-    background-color: #000000;
-    color: #ffffff;
+footer {
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    padding: 10px 0;
-    font-size: 14px;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
 }
