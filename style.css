@@ -69,6 +69,21 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
+.hero button {
+    background-color: #fff;
+    color: #007BFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
 /* Video section */
 .video-section {
     padding: 50px 0;
